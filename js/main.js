@@ -77,6 +77,10 @@ document.querySelector(".fa-remove").addEventListener("click", () => {
     document.querySelector("body").classList.replace("overflow-hidden", "overflow-auto")
 })
 
+window.addEventListener("load", function(){
+    loading()
+})
+
 function loading() {
     let idValue = setInterval(() => {
         document.getElementById("loading").classList.replace("d-none", "d-block")
