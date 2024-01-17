@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Store</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="mainBg overflow-auto">
+
+    <header class="position-relative">
+        <nav id="navbar-example"
+            class="navbar navbar-expand-lg container position-sticky top-100 z-2  rounded-4 px-2">
+            <div class="container">
+                <div class="d-flex align-items-center">
+                    <img src="img/logo-sm.png" class="col-2">
+                    <h1 class="navbar-brand fw-bold ms-1 text-white"> GAME REVIEWS</h1>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item fs-6">
+                            <button class="nav-link active" aria-current="page">MMORPG</button>
+                        </li>
+                        <li class="nav-item fs-6">
+                            <button class="nav-link">SHOOTER</button>
+                        </li>
+                        <li class="nav-item fs-6">
+                            <button class="nav-link">SAILING</button>
+                        </li>
+                        <li class="nav-item fs-6">
+                            <button class="nav-link">PERMADEATH</button>
+                        </li>
+                        <li class="nav-item fs-6">
+                            <button class="nav-link">SUPERHERO</button>
+                        </li>
+                        <li class="nav-item fs-6">
+                            <button class="nav-link">PIXEL</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="allGames py-5">
+        <div class="container">
+            <div class="row gy-5">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="gameDetails flex-column d-none fixed-top pt-4">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="text-white">Game Details</h1>
+            <i class="fa-solid fa-remove fa-xl text-secondary"></i>
+        </div>
+        <div class="container pt-4">
+            <div class="row">
+
+            </div>
+        </div>
+    </section>
+
+    <div id="loading" class="d-none fixed-top"></div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
