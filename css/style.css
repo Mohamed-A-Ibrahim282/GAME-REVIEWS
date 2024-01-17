@@ -1,0 +1,102 @@
+:root {
+    --main-color: #060405;
+    --main-transition: all 0.8s;
+}
+
+@font-face {
+    font-family: Salsa;
+    src: url(../webfonts/Salsa-Regular.ttf);
+}
+
+* {
+    font-family: Salsa;
+}
+
+.mainBg {
+    background-color: var(--main-color);
+}
+
+header {
+    background-image: linear-gradient(#08090a70, #08090a70), url(../img/1.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 40vh;
+}
+
+nav {
+    background-color: #3a497b;
+}
+
+.nav-link {
+    color: white;
+    transition: var(--main-transition);
+}
+
+.navbar-nav .nav-link.active{
+    color: rgb(0, 187, 255);
+}
+
+.navbar-nav .nav-link:hover{
+    color: rgb(0, 187, 255);
+}
+
+.allGames .card h6 {
+    font-size: 12px;
+}
+
+.card {
+    transition: var(--main-transition);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    opacity: 0.4;
+    transition: var(--main-transition);
+}
+
+.card:hover img {
+    opacity: 1;
+
+}
+
+.card .card-body {
+    height: 120px;
+    max-height: 120px;
+}
+
+
+.card .card-title {
+    font-size: 16px;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+.gameDetails {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--main-color);
+}
+
+.gameDetails span {
+    font-size: 12px;
+}
+
+.gameDetails .fa-remove {
+    cursor: pointer;
+}
+
+#loading {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-image: url("../img/loading.gif");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 9999;
+}
