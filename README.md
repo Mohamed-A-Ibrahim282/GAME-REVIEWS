@@ -17,3 +17,5 @@ Programming Paradigm: Object-Oriented Programming (OOP)
 Game Object Creation: Each game is represented as an object with properties like title, genre, description, and more.
 
 Event Handling: Click events are handled efficiently, triggering the display of detailed information about the selected game without the need for page reloads.
+
+Live demo: https://mohamed-a-ibrahim282.github.io/GAME-REVIEWS/
